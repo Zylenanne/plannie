@@ -1,0 +1,50 @@
+{
+  "name": "Plannie — Cute Planner Studio",
+  "short_name": "Plannie",
+  "description": "Your aesthetic daily, weekly, monthly & period planner. Plan your week. Stay focused. You've got this!",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "background_color": "#f0f4ff",
+  "theme_color": "#8fb8ff",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "lifestyle"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+    
+  ],
+  "shortcuts": [
+    {
+      "name": "Daily Planner",
+      "url": "/?view=daily",
+      "description": "Open today's daily plan",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Weekly Study Planner",
+      "url": "/?view=weekly",
+      "description": "Plan your week",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Monthly Glow & Grow",
+      "url": "/?view=monthly",
+      "description": "Monthly overview",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": []
+}
