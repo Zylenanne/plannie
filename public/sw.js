@@ -2,9 +2,9 @@
 const CACHE_NAME = "plannie-v2";
 const APP_SHELL = [
   "/plannie/",
-  "/manifest.webmanifest",
-  "/icon-192.png",
-  "/icon-512.png"
+  "/plannie/manifest.webmanifest",
+  "/plannie/icon-192.png",
+  "/plannie/icon-512.png"
 ];
 
 self.addEventListener("install", (event) => {
