@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Plannie — Cute Planner Studio",
   description: "Your aesthetic weekly, daily, monthly & period planner in one cute place. Plan your week. Stay focused. You've got this!",
-  manifest: "/manifest.webmanifest",
+  manifest: "/plannie/manifest.webmanifest",
   appleWebApp: {
     capable: true,
     title: "Plannie",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
       { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
       { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  
   },
   openGraph: {
     title: "Plannie — Cute Planner Studio",
