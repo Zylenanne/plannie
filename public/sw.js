@@ -1,7 +1,7 @@
 // Plannie Service Worker — offline cache for app shell
 const CACHE_NAME = "plannie-v2";
 const APP_SHELL = [
-  "/",
+  "/plannie/",
   "/manifest.webmanifest",
   "/icon-192.png",
   "/icon-512.png"

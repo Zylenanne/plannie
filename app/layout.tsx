@@ -46,7 +46,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             __html: `
               if ('serviceWorker' in navigator) {
                 window.addEventListener('load', () => {
-                  navigator.serviceWorker.register('/sw.js').then(
+                  navigator.serviceWorker.register('/plannie/sw.js').then(
                     (reg) => console.log('SW registered', reg.scope),
                     (err) => console.log('SW failed', err)
                   );
